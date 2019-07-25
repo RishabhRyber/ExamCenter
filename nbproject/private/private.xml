@@ -3,7 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+            <file>file:/G:/webProjects/New%20Folder/ExamCenter/web/CommonThings/StudentRegistration.jsp</file>
+            <file>file:/G:/webProjects/New%20Folder/ExamCenter/web/WEB-INF/web.xml</file>
             <file>file:/G:/webProjects/New%20Folder/ExamCenter/src/java/DAO/StudentDeclaration.java</file>
+            <file>file:/G:/webProjects/New%20Folder/ExamCenter/src/java/Controller/RegisterController.java</file>
+            <file>file:/G:/webProjects/New%20Folder/ExamCenter/src/java/Bean/Student.java</file>
             <file>file:/G:/webProjects/New%20Folder/ExamCenter/src/java/DAO/StudentOperation.java</file>
         </group>
     </open-files>

@@ -17,14 +17,16 @@ public class Student {
     @Id
     @GeneratedValue
     private long s_id;
-    private String name,address,contact,cource,fee,admission_date,password;
+    private String name,email,address,contact,cource,admission_date,password;
+    int fee;
     @Column(unique= true,nullable=false)
     String username;
-    public Student(String name, String username, String address, String contact, String cource, String fee, String admission_date, String password) {
+    public Student(String name, String username, String email, String address, String contact, String cource, int fee, String admission_date, String password) {
         this.name = name;
         this.username = username;
         this.address = address;
         this.contact = contact;
+        this.email=email;
         this.cource = cource;
         this.fee = fee;
         this.admission_date = admission_date;
@@ -34,9 +36,17 @@ public class Student {
     public Student() {
     }
 
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
     
     
-    
+     
     public long getS_id() {
         return s_id;
     }
@@ -85,11 +95,11 @@ public class Student {
         this.cource = cource;
     }
 
-    public String getFee() {
+    public int getFee() {
         return fee;
     }
 
-    public void setFee(String fee) {
+    public void setFee(int fee) {
         this.fee = fee;
     }
 
@@ -108,7 +118,4 @@ public class Student {
     public void setPassword(String password) {
         this.password = password;
     }
-    
-    
-
 }
